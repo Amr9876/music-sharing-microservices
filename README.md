@@ -1,6 +1,6 @@
 # Music Sharing Microservices 🎵
 
-This project is a demonstration of my knowledge and skills in using **golang**, **nodejs** and **microservices architecture**. The goal of this project is to create a music sharing platform that allows users to upload, listen, like, and organize their favorite songs and playlists. 🎧
+I built this project in my own and it is a demonstration of my personal knowledge and skills in using **golang**, **nodejs** and **microservices architecture**. The goal of this project is to create a music sharing platform that allows users to upload, listen, like, and organize their favorite songs and playlists. 🎧
 
 ## Project Overview 📋
 
