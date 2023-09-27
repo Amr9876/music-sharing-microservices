@@ -1,0 +1,14 @@
+{
+  "folders": [
+    {
+      "path": "user-microservice"
+    },
+    {
+      "path": "music-microservice"
+    },
+    {
+      "path": "playlist-microservice"
+    }
+  ],
+  "settings": {}
+}

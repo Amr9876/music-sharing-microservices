@@ -1,0 +1,32 @@
+{
+  "name": "playlist-microservice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.ts",
+  "scripts": {
+    "start": "nodemon src/server.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jsonwebtoken": "^9.0.3",
+    "@types/node": "^20.6.4",
+    "@types/uuid": "^9.0.4",
+    "nodemon": "^3.0.1",
+    "prisma": "^5.3.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "@fastify/middie": "^8.3.0",
+    "@fastify/multipart": "^7.7.3",
+    "@prisma/client": "^5.3.1",
+    "axios": "^1.5.0",
+    "cloudinary": "^1.41.0",
+    "dotenv": "^16.3.1",
+    "fastify": "^4.23.2",
+    "jsonwebtoken": "^9.0.2",
+    "uuid": "^9.0.1"
+  }
+}

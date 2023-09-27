@@ -1,0 +1,29 @@
+version: '3.1'
+
+services:
+  users-db:
+    image: mysql
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: 'TestPassword'
+    ports:
+      - '13306:3306'
+
+  playlist-db:
+    image: postgres:latest
+    restart: always
+    environment:
+      POSTGRES_PASSWORD: TestPassword
+      POSTGRES_USER: root
+    ports:
+      - 5432:5432
+
+  pgadmin:
+    image: dpage/pgadmin4:latest
+    restart: always
+    environment:
+      PGADMIN_DEFAULT_EMAIL: root@example.com
+      PGADMIN_DEFAULT_PASSWORD: TestPassword
+      PGADMIN_LISTEN_PORT: 80
+    ports:
+      - 8082:80
